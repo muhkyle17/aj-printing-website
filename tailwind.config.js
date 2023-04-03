@@ -9,7 +9,19 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        lg: '3rem',
+      },
+    },
+    extend: {
+      colors: {
+        primary: '#264D6A',
+        secondary: '#FEF9F3',
+        tertiary: '#FCF9ED',
+      },
+    },
   },
   plugins: [],
 }
