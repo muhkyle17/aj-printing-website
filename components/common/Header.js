@@ -7,7 +7,7 @@ const Header = () => {
         <p className='text-lg'>
           <Link href='/'>Insert logo here</Link>
         </p>
-        <ul className='flex justify-between items-center text-base font-bold uppercase w-[50%]'>
+        <ul className='flex justify-between items-center text-base font-bold uppercase md:w-[60%] lg:w-[40%]'>
           <li>
             <Link href='/'>Work</Link>
           </li>
