@@ -4,7 +4,7 @@ const Nav = () => {
   const baseStyles = 'hover:text-primary transition-all duration-300'
 
   return (
-    <ul className='flex justify-between items-center text-base font-bold uppercase md:w-[60%] lg:w-[40%]'>
+    <ul className='hidden lg:flex justify-between items-center text-base font-bold uppercase md:w-[50%] xl:w-[40%]'>
       <li className={`${baseStyles}`}>
         <Link href='/'>Work</Link>
       </li>
