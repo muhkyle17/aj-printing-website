@@ -1,11 +1,17 @@
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import Nav from '../Nav'
 import NavMobile from '../NavMobile'
 
 const Header = () => {
   const [bg, setBg] = useState(false)
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      return window.scrollY > 50 ? setBg(true) : setBg(false)
+    })
+  })
 
   return (
     <header
