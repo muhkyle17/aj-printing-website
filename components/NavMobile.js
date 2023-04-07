@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { XIcon } from '@heroicons/react/outline'
 import { MenuAlt3Icon } from '@heroicons/react/outline'
 import { motion } from 'framer-motion'
-import { Link } from 'react-scroll'
+import Link from 'next/link'
 
 const NavMobile = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -100,12 +100,7 @@ const NavMobile = () => {
         {navigation.map((item, index) => {
           return (
             <li key={index} className='mb-8'>
-              <Link
-                to={item.href}
-                smooth={true}
-                duration={500}
-                offset={-70}
-                className='text-xl cursor-pointer capitalize'>
+              <Link href={`/${item.href}`} className='text-xl cursor-pointer capitalize'>
                 {item.name}
               </Link>
             </li>
