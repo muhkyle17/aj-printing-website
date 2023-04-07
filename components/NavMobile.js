@@ -15,8 +15,8 @@ const NavMobile = () => {
       scale: 250,
       transition: {
         type: 'spring',
-        stiffness: '160',
-        damping: '70',
+        stiffness: '150',
+        damping: '50',
       },
     },
   }
