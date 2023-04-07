@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import { XIcon } from '@heroicons/react/outline'
-import { MenuAlt3Icon } from '@heroicons/react/outline'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 
