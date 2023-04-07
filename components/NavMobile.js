@@ -55,7 +55,7 @@ const NavMobile = () => {
   ]
 
   return (
-    <nav className='relative'>
+    <nav className='relative lg:hidden block'>
       <div onClick={() => setIsOpen(true)} className='cursor-pointer text-white'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
