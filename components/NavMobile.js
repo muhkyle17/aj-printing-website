@@ -29,29 +29,6 @@ const NavMobile = () => {
     },
   }
 
-  const navigation = [
-    {
-      name: 'home',
-      href: '/',
-    },
-    {
-      name: 'company',
-      href: 'company',
-    },
-    {
-      name: 'products',
-      href: 'products',
-    },
-    {
-      name: 'markets',
-      href: 'markets',
-    },
-    {
-      name: 'contact',
-      href: 'contact',
-    },
-  ]
-
   return (
     <nav className='relative lg:hidden block'>
       <div onClick={() => setIsOpen(true)} className='cursor-pointer text-white'>
@@ -94,17 +71,31 @@ const NavMobile = () => {
             <path strokeLinecap='round' strokeLinejoin='round' d='M6 18L18 6M6 6l12 12' />
           </svg>
         </div>
-        {navigation.map((item, index) => {
-          return (
-            <li key={index} className='mb-8'>
-              <Link
-                href={`/${!!item.href !== '/' && item.href}`}
-                className='text-xl cursor-pointer capitalize text-white'>
-                {item.name}
-              </Link>
-            </li>
-          )
-        })}
+        <li className='mb-8'>
+          <Link href={'/'} className='text-xl cursor-pointer capitalize text-white'>
+            Home
+          </Link>
+        </li>
+        <li className='mb-8'>
+          <Link href={'/company'} className='text-xl cursor-pointer capitalize text-white'>
+            Company
+          </Link>
+        </li>
+        <li className='mb-8'>
+          <Link href={'/product'} className='text-xl cursor-pointer capitalize text-white'>
+            Products
+          </Link>
+        </li>
+        <li className='mb-8'>
+          <Link href={'/market'} className='text-xl cursor-pointer capitalize text-white'>
+            Market
+          </Link>
+        </li>
+        <li className='mb-8'>
+          <Link href={'/contact'} className='text-xl cursor-pointer capitalize text-white'>
+            Contact
+          </Link>
+        </li>
       </motion.ul>
     </nav>
   )
