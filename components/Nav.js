@@ -6,16 +6,16 @@ const Nav = () => {
   return (
     <ul className='hidden lg:flex justify-between items-center text-base font-bold uppercase md:w-[50%] xl:w-[40%]'>
       <li className={`${baseStyles}`}>
-        <Link href='/work'>Work</Link>
-      </li>
-      <li className={`${baseStyles}`}>
-        <Link href='/services'>Services</Link>
-      </li>
-      <li className={`${baseStyles}`}>
-        <Link href='/solutions'>Solutions</Link>
+        <Link href='/'>Home</Link>
       </li>
       <li className={`${baseStyles}`}>
         <Link href='/company'>Company</Link>
+      </li>
+      <li className={`${baseStyles}`}>
+        <Link href='/products'>Products</Link>
+      </li>
+      <li className={`${baseStyles}`}>
+        <Link href='/markets'>Market</Link>
       </li>
       <li className={`${baseStyles}`}>
         <Link href='/contact'>Contact</Link>

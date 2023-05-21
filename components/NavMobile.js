@@ -31,20 +31,20 @@ const NavMobile = () => {
 
   const navigation = [
     {
-      name: 'work',
-      href: 'work',
-    },
-    {
-      name: 'services',
-      href: 'services',
-    },
-    {
-      name: 'solutions',
-      href: 'solutions',
+      name: 'home',
+      href: '/',
     },
     {
       name: 'company',
       href: 'company',
+    },
+    {
+      name: 'products',
+      href: 'products',
+    },
+    {
+      name: 'markets',
+      href: 'markets',
     },
     {
       name: 'contact',
