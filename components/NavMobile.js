@@ -97,7 +97,9 @@ const NavMobile = () => {
         {navigation.map((item, index) => {
           return (
             <li key={index} className='mb-8'>
-              <Link href={`/${item.href}`} className='text-xl cursor-pointer capitalize text-white'>
+              <Link
+                href={`/${!!item.href !== '/' && item.href}`}
+                className='text-xl cursor-pointer capitalize text-white'>
                 {item.name}
               </Link>
             </li>
