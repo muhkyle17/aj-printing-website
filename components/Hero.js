@@ -7,7 +7,7 @@ const Hero = () => {
         <span className='text-md md:text-lg xl:text-xl mt-5'>For Your Brand Needs.</span>
       </div>
       <div
-        className='fixed w-full lg:w-[800px] xl:w-[50%] h-[70vh] rounded-lg bottom-20 right-0 bg-cover bg-center bg-no-repeat opacity-50 lg:opacity-80'
+        className='fixed w-full lg:w-[800px] xl:w-[50%] h-[70vh] rounded-lg bottom-20 right-0 bg-cover bg-center bg-no-repeat opacity-50 xl:opacity-80'
         style={{
           backgroundImage: `url('/hero-printing.jpeg')`,
         }}
