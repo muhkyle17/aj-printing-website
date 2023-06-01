@@ -22,14 +22,14 @@ const Nav = () => {
           onMouseEnter={() => setShowProductsDropdown(true)}
           onMouseLeave={() => setShowProductsDropdown(false)}>
           Products
+          {showProductsDropdown && (
+            <div className='absolute flex flex-col'>
+              <Link href='/'>Roll to roll labels</Link>
+              <Link href='/'>Sheeted Labels</Link>
+              <Link href='/'>In Mould Labels</Link>
+            </div>
+          )}
         </Link>
-        {showProductsDropdown && (
-          <div className='absolute flex flex-col'>
-            <Link href='/'>Roll to roll labels</Link>
-            <Link href='/'>Sheeted Labels</Link>
-            <Link href='/'>In Mould Labels</Link>
-          </div>
-        )}
       </li>
       <li className={`${baseStyles} relative`}>
         <Link
@@ -38,16 +38,16 @@ const Nav = () => {
           onMouseEnter={() => setShowMarketsDropdown(true)}
           onMouseLeave={() => setShowMarketsDropdown(false)}>
           Market
+          {showMarketsDropdown && (
+            <div className='flex flex-col absolute'>
+              <Link href='/'>B&F</Link>
+              <Link href='/'>Healthcare</Link>
+              <Link href='/'>Promotions</Link>
+              <Link href='/'>Barcodes</Link>
+              <Link href='/'>Chemicals</Link>
+            </div>
+          )}
         </Link>
-        {showMarketsDropdown && (
-          <div className='flex flex-col absolute'>
-            <Link href='/'>B&F</Link>
-            <Link href='/'>Healthcare</Link>
-            <Link href='/'>Promotions</Link>
-            <Link href='/'>Barcodes</Link>
-            <Link href='/'>Chemicals</Link>
-          </div>
-        )}
       </li>
       <li className={`${baseStyles}`}>
         <Link href='/contact'>Contact</Link>
