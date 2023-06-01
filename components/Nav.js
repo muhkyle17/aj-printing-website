@@ -7,7 +7,7 @@ const Nav = () => {
 
   const baseStyles = 'hover:text-black transition-all duration-300'
   const baseDropdownStyles =
-    'flex flex-col gap-5 absolute bg-[#efeee5] w-max px-3.5 py-3 shadow-lg shadow-slate-600 rounded-md'
+    'flex flex-col gap-5 absolute bg-[#efeee5] w-max px-3.5 py-5 shadow-[4px_20px_10px_0_rgba(0,0,0,0.3)] rounded-md'
 
   return (
     <ul className='hidden lg:flex justify-between items-center text-base font-bold uppercase md:w-[50%] xl:w-[40%]'>
