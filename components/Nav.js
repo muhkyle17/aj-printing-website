@@ -3,8 +3,7 @@ import { useState } from 'react'
 
 const Nav = () => {
   const [showProductsDropdown, setShowProductsDropdown] = useState(false)
-
-  console.log(showProductsDropdown)
+  const [showMarketsDropdown, setShowMarketsDropdown] = useState(false)
 
   const baseStyles = 'hover:text-black transition-all duration-300'
 
@@ -32,17 +31,23 @@ const Nav = () => {
           </div>
         )}
       </li>
-      <li className={`${baseStyles}`}>
-        <Link href='/markets' className='dropdown-hover'>
+      <li className={`${baseStyles} relative`}>
+        <Link
+          href='/markets'
+          className='dropdown-hover'
+          onMouseEnter={() => setShowMarketsDropdown(true)}
+          onMouseLeave={() => setShowMarketsDropdown(false)}>
           Market
         </Link>
-        <div className='flex flex-col'>
-          <Link href='/'>B&F</Link>
-          <Link href='/'>Healthcare</Link>
-          <Link href='/'>Promotions</Link>
-          <Link href='/'>Barcodes</Link>
-          <Link href='/'>Chemicals</Link>
-        </div>
+        {showMarketsDropdown && (
+          <div className='flex flex-col absolute'>
+            <Link href='/'>B&F</Link>
+            <Link href='/'>Healthcare</Link>
+            <Link href='/'>Promotions</Link>
+            <Link href='/'>Barcodes</Link>
+            <Link href='/'>Chemicals</Link>
+          </div>
+        )}
       </li>
       <li className={`${baseStyles}`}>
         <Link href='/contact'>Contact</Link>
