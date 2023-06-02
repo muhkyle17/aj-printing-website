@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/common/Header'
 import Hero from '../components/Hero'
+import CompanyPhilosophy from '../components/CompanyPhilosophy'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
       <Header />
       <Hero />
+      <CompanyPhilosophy />
     </>
   )
 }
