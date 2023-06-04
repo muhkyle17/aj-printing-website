@@ -16,7 +16,7 @@ const CompanyPhilosophy = () => {
           voluptatum iste quas mollitia explicabo nisi eveniet perferendis, cumque et ipsum
           consectetur laborum nulla facilis quam magnam nam placeat possimus saepe earum!
         </p>
-        <div className='flex flex-wrap flex-col lg:flex-row lg:items-center w-3/4 mx-auto xl:flex-nowrap gap-5'>
+        <div className='flex flex-wrap flex-col lg:flex-row lg:items-center w-3/4 mb-[100px] mx-auto xl:flex-nowrap gap-5'>
           <Image
             src={printingImage}
             alt='Print image'
