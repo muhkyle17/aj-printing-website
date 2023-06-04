@@ -11,12 +11,12 @@ const CompanyPhilosophy = () => {
         <p className='text-6xl sm:text-7xl md:pl-60 text-[#264D6A]'>Values</p>
       </div>
       <div className='flex xl:flex-row flex-col items-center gap-2 w-full xl:mx-28'>
-        <p className='text-base w-3/4 xl:w-1/4 text-primary opacity-80 leading-6'>
+        <p className='text-base lg:px-20 xl:px-0 w-3/4 xl:w-1/4 text-primary opacity-80 leading-6'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, officiis nostrum
           voluptatum iste quas mollitia explicabo nisi eveniet perferendis, cumque et ipsum
           consectetur laborum nulla facilis quam magnam nam placeat possimus saepe earum!
         </p>
-        <div className='flex flex-wrap flex-col lg:flex-row lg:items-center w-3/4 mx-auto xl:flex-nowrap gap-5'>
+        <div className='flex flex-wrap flex-col justify-center lg:flex-row lg:items-center w-3/4 mx-auto xl:flex-nowrap gap-5'>
           <Image
             src={printingImage}
             alt='Print image'
@@ -25,7 +25,7 @@ const CompanyPhilosophy = () => {
           <Image
             src={printingImage2}
             alt='Print image'
-            className='w-auto rounded-[50px] self-start h-auto md:h-[25rem]'
+            className='w-auto rounded-[50px] self-center h-auto md:h-[25rem]'
           />
         </div>
       </div>
