@@ -10,7 +10,7 @@ const CompanyPhilosophy = () => {
         <p className='text-6xl sm:text-8xl md:pl-10 md:mb-5 text-[#43759b]'>Company</p>
         <p className='text-6xl sm:text-7xl md:pl-60 text-[#264D6A]'>Values</p>
       </div>
-      <div className='flex xl:flex-row flex-col items-center gap-2 w-full xl:mx-28'>
+      <div className='flex xl:flex-row flex-col items-center gap-5 w-full xl:mx-28'>
         <p className='text-base lg:px-20 xl:px-0 w-3/4 xl:w-1/4 text-primary opacity-80 leading-6'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, officiis nostrum
           voluptatum iste quas mollitia explicabo nisi eveniet perferendis, cumque et ipsum
