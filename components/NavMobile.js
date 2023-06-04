@@ -34,7 +34,7 @@ const NavMobile = ({ bg }) => {
       <div onClick={() => setIsOpen(true)} className='cursor-pointer text-white'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
-          className={`w-8 h-8 ${bg ? 'text-white' : 'text-primary'}`}
+          className={`w-8 h-8 ${bg ? 'text-white' : 'text-primary'} hover:text-black`}
           fill='none'
           viewBox='0 0 24 24'
           strokeWidth='1.5'
@@ -67,32 +67,42 @@ const NavMobile = ({ bg }) => {
             viewBox='0 0 24 24'
             strokeWidth={1.5}
             stroke='currentColor'
-            className='w-9 h-9 text-white'>
+            className='w-9 h-9 text-white hover:text-black'>
             <path strokeLinecap='round' strokeLinejoin='round' d='M6 18L18 6M6 6l12 12' />
           </svg>
         </div>
         <li className='mb-8'>
-          <Link href={'/'} className='text-xl cursor-pointer capitalize text-white'>
+          <Link
+            href={'/'}
+            className='text-xl cursor-pointer capitalize text-white hover:text-black transition-all duration-300'>
             Home
           </Link>
         </li>
         <li className='mb-8'>
-          <Link href={'/company'} className='text-xl cursor-pointer capitalize text-white'>
+          <Link
+            href={'/company'}
+            className='text-xl cursor-pointer capitalize text-white hover:text-black transition-all duration-300'>
             Company
           </Link>
         </li>
         <li className='mb-8'>
-          <Link href={'/product'} className='text-xl cursor-pointer capitalize text-white'>
+          <Link
+            href={'/product'}
+            className='text-xl cursor-pointer capitalize text-white hover:text-black transition-all duration-300'>
             Products
           </Link>
         </li>
         <li className='mb-8'>
-          <Link href={'/market'} className='text-xl cursor-pointer capitalize text-white'>
+          <Link
+            href={'/market'}
+            className='text-xl cursor-pointer capitalize text-white hover:text-black transition-all duration-300'>
             Market
           </Link>
         </li>
         <li className='mb-8'>
-          <Link href={'/contact'} className='text-xl cursor-pointer capitalize text-white'>
+          <Link
+            href={'/contact'}
+            className='text-xl cursor-pointer capitalize text-white hover:text-black transition-all duration-300'>
             Contact
           </Link>
         </li>
