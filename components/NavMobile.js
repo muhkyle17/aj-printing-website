@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 
-const NavMobile = () => {
+const NavMobile = ({ bg }) => {
   const [isOpen, setIsOpen] = useState(false)
 
   const circleVariants = {
@@ -34,7 +34,7 @@ const NavMobile = () => {
       <div onClick={() => setIsOpen(true)} className='cursor-pointer text-white'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
-          className='w-8 h-8 text-primary'
+          className={`w-8 h-8 ${bg ? 'text-white' : 'text-primary'}`}
           fill='none'
           viewBox='0 0 24 24'
           strokeWidth='1.5'

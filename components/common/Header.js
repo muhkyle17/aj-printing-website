@@ -29,7 +29,7 @@ const Header = () => {
           <Link href='/'>NGS</Link>
         </h1>
         <Nav />
-        <NavMobile />
+        <NavMobile bg={bg} />
       </div>
     </header>
   )
