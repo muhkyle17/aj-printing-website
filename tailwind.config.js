@@ -18,6 +18,7 @@ module.exports = {
     extend: {
       colors: {
         primary: '#264D6A',
+        hoverPrimary: '#368CCB',
         secondary: '#FEF9F3',
         tertiary: '#131419',
       },
