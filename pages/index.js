@@ -3,6 +3,7 @@ import Header from '../components/common/Header'
 import Hero from '../components/Hero'
 import CompanyPhilosophy from '../components/CompanyPhilosophy'
 import Products from '../components/Products'
+import Markets from '../components/Markets'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <CompanyPhilosophy />
       <Products />
+      <Markets />
     </>
   )
 }
