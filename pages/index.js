@@ -4,6 +4,8 @@ import Hero from '../components/Hero'
 import CompanyPhilosophy from '../components/CompanyPhilosophy'
 import Products from '../components/Products'
 import Markets from '../components/Markets'
+import ContactUs from '../components/ContactUs'
+// import Footer from '../components/Footer
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <CompanyPhilosophy />
       <Products />
       <Markets />
+      <ContactUs />
+      {/* <Footer /> */}
     </>
   )
 }
