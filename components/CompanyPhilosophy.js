@@ -4,7 +4,7 @@ import printingImage2 from '../public/print-image-2.jpeg'
 
 const CompanyPhilosophy = () => {
   return (
-    <div className='h-full flex flex-col gap-10 md:gap-20 items-center container mx-auto'>
+    <div className='h-full flex flex-col gap-10 md:gap-20 items-center container mx-auto mb-[100px]'>
       <div className='flex flex-col items-center md:items-baseline'>
         <p className='text-6xl md:text-5xl text-primary opacity-80'>Our</p>
         <p className='text-6xl sm:text-8xl md:pl-10 md:mb-5 text-[#43759b]'>Company</p>
@@ -16,7 +16,7 @@ const CompanyPhilosophy = () => {
           voluptatum iste quas mollitia explicabo nisi eveniet perferendis, cumque et ipsum
           consectetur laborum nulla facilis quam magnam nam placeat possimus saepe earum!
         </p>
-        <div className='flex flex-wrap flex-col lg:flex-row lg:items-center w-3/4 mb-[100px] mx-auto xl:flex-nowrap gap-5'>
+        <div className='flex flex-wrap flex-col lg:flex-row lg:items-center w-3/4 mx-auto xl:flex-nowrap gap-5'>
           <Image
             src={printingImage}
             alt='Print image'
