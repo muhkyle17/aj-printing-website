@@ -10,17 +10,17 @@ const Products = () => {
       </div>
       <div className='flex flex-col text-center'>
         <div className='text-3xl w-[42rem] text-primary border-b-2 border-t-2 border-gray-300 py-10'>
-          <Link href='/' className='hover:text-hoverPrimary'>
+          <Link href='/' className='hover:text-hoverPrimary transition-all duration-300'>
             Roll to Roll Labels
           </Link>
         </div>
         <div className='text-3xl w-[42rem] text-primary border-b-2 border-gray-300 py-10'>
-          <Link href='/' className='hover:text-hoverPrimary'>
+          <Link href='/' className='hover:text-hoverPrimary transition-all duration-300'>
             Sheeted Labels
           </Link>
         </div>
         <div className='text-3xl w-[42rem] text-primary border-b-2 border-gray-300 py-10'>
-          <Link href='/' className='hover:text-hoverPrimary'>
+          <Link href='/' className='hover:text-hoverPrimary transition-all duration-300'>
             In Mould Labels
           </Link>
         </div>
