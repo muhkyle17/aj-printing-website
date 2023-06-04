@@ -22,10 +22,10 @@ const Header = () => {
         className={`flex items-center gap-10 justify-between ${
           bg ? 'text-white' : 'text-primary'
         } transition-all duration-300 container mx-auto`}>
-        <h1 className='name hidden sm:block text-4xl font-medium hover:text-black transition-all duration-300'>
+        <h1 className='name hidden sm:block text-4xl font-medium hover:text-hoverPrimary transition-all duration-300'>
           <Link href='/'>North Graphic Supplies</Link>
         </h1>
-        <h1 className='name block sm:hidden text-3xl hover:text-black transition-all duration-300'>
+        <h1 className='name block sm:hidden text-3xl hover:text-hoverPrimary transition-all duration-300'>
           <Link href='/'>NGS</Link>
         </h1>
         <Nav />

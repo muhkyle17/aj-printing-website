@@ -5,7 +5,7 @@ const Nav = () => {
   const [showProductsDropdown, setShowProductsDropdown] = useState(false)
   const [showMarketsDropdown, setShowMarketsDropdown] = useState(false)
 
-  const baseStyles = 'hover:text-black transition-all duration-300'
+  const baseStyles = 'hover:text-hoverPrimary transition-all duration-300'
   const baseDropdownStyles =
     'flex flex-col absolute bg-[#efeee5] w-max shadow-[4px_20px_10px_0_rgba(0,0,0,0.3)] rounded-md'
   const baseSubDropdownStyles =
