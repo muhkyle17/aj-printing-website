@@ -14,8 +14,8 @@ const ContactUs = () => {
             <input
               type='text'
               name='firstName'
-              placeholder='First Name'
-              className='w-full rounded-xl py-2 px-3 border-2 border-gray-200 font-normal'
+              placeholder='John'
+              className='w-full rounded-xl py-2 px-3 border-2 border-gray-200 font-normal focus:outline-none'
               required
             />
           </label>
@@ -24,8 +24,8 @@ const ContactUs = () => {
             <input
               type='text'
               name='lastName'
-              placeholder='Last Name'
-              className='w-full rounded-xl py-2 px-3 border-2 border-gray-200 font-normal'
+              placeholder='Doe'
+              className='w-full rounded-xl py-2 px-3 border-2 border-gray-200 font-normal focus:outline-none'
               required
             />
           </label>
@@ -36,8 +36,8 @@ const ContactUs = () => {
             <input
               type='email'
               name='email'
-              placeholder='Email Address'
-              className='w-full rounded-xl py-2 px-3 border-2 border-gray-200 font-normal'
+              placeholder='example@gmail.com'
+              className='w-full rounded-xl py-2 px-3 border-2 border-gray-200 font-normal focus:outline-none'
               required
             />
           </label>
@@ -47,7 +47,7 @@ const ContactUs = () => {
               type='text'
               name='company'
               placeholder='Company Name'
-              className='w-full rounded-xl py-2 px-3 border-2 border-gray-200 font-normal'
+              className='w-full rounded-xl py-2 px-3 border-2 border-gray-200 font-normal focus:outline-none'
               required
             />
           </label>
@@ -59,7 +59,7 @@ const ContactUs = () => {
             name='message'
             rows='4'
             cols='50'
-            className='w-full rounded-xl py-2 px-3 border-2 border-gray-200 font-normal'
+            className='w-full rounded-xl py-2 px-3 border-2 border-gray-200 font-normal focus:outline-none'
             placeholder='Leave us a message...'
           />
         </label>
