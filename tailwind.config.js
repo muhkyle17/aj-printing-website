@@ -19,8 +19,7 @@ module.exports = {
       colors: {
         primary: '#264D6A',
         primaryBackground: '#efeee5',
-        hoverPrimary: '#368CCB',
-        // hoverPrimary: '#4AA3E7',
+        hoverPrimary: '#D39E45',
         secondary: '#FEF9F3',
         tertiary: '#131419',
       },
