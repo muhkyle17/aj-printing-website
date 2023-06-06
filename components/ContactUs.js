@@ -5,7 +5,7 @@ const ContactUs = () => {
       <form
         action='https://formsubmit.co/reyesmikyle17@gmail.com'
         method='POST'
-        className='container mx-auto w-7/12 flex flex-col gap-10'>
+        className='container mx-auto w-7/12 flex flex-col gap-7 mb-10'>
         <div className='flex flex-row gap-10'>
           <label
             htmlFor='firstName'
@@ -63,7 +63,11 @@ const ContactUs = () => {
             placeholder='Leave us a message...'
           />
         </label>
-        <button type='submit'>Send</button>
+        <button
+          type='submit'
+          className='bg-primary border-2 border-primary rounded-xl py-2 font-medium text-white hover:bg-primaryBackground hover:text-primary transition-all duration-300'>
+          Send Message
+        </button>
         <input type='hidden' name='_captcha' value='false' />
       </form>
     </div>
