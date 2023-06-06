@@ -5,7 +5,7 @@ import CompanyPhilosophy from '../components/CompanyPhilosophy'
 import Products from '../components/Products'
 import Markets from '../components/Markets'
 import ContactUs from '../components/ContactUs'
-// import Footer from '../components/Footer
+import Footer from '../components/common/Footer'
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
       <Products />
       <Markets />
       <ContactUs />
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
