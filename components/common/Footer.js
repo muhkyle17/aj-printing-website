@@ -16,13 +16,13 @@ const Footer = () => {
         <div className='flex flex-col lg:flex-row gap-5 lg:gap-32 justify-around w-1/2 md:w-2/3'>
           <div className='flex flex-col gap-5'>
             <h3 className='text-2xl mb-2 opacity-60'>Services</h3>
-            <Link href='/company' className='hover:text-hoverPrimary'>
+            <Link href='/company' className='hover:text-hoverPrimary w-fit'>
               Company
             </Link>
-            <Link href='/products' className='hover:text-hoverPrimary'>
+            <Link href='/products' className='hover:text-hoverPrimary w-fit'>
               Products
             </Link>
-            <Link href='/market' className='hover:text-hoverPrimary'>
+            <Link href='/market' className='hover:text-hoverPrimary w-fit'>
               Market
             </Link>
           </div>
