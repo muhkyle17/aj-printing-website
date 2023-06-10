@@ -1,11 +1,13 @@
 const ContactUs = () => {
   return (
-    <div>
+    <div className='container mx-auto w-7/12'>
+      <h3 className='text-3xl text-primary mb-3'>{`We'd love to help`}</h3>
+      <h3 className='text2xl text-primary mb-8'>{`Reach out and we'll get in touch within 24 hours`}</h3>
       {/* <form action='https://formsubmit.co/kylereyes_09@yahoo.com' method='POST'> */}
       <form
         action='https://formsubmit.co/reyesmikyle17@gmail.com'
         method='POST'
-        className='container mx-auto w-7/12 flex flex-col gap-7 mb-10'>
+        className='flex flex-col gap-7'>
         <div className='flex flex-row gap-10'>
           <label
             htmlFor='firstName'
