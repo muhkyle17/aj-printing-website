@@ -8,13 +8,13 @@ const Footer = () => {
         </div>
         <div className='flex gap-32 justify-around w-2/3'>
           <div className='flex flex-col gap-5'>
-            <h3 className='text-2xl'>Services</h3>
+            <h3 className='text-2xl mb-2 opacity-60'>Services</h3>
             <p>Company</p>
             <p>Products</p>
             <p>Market</p>
           </div>
           <div className='flex flex-col gap-5'>
-            <h3 className='text-2xl'>Contact</h3>
+            <h3 className='text-2xl mb-2 opacity-60'>Contact</h3>
             <p>Email</p>
             <p>Phone Number</p>
             <p>Socials</p>
