@@ -1,14 +1,14 @@
 const ContactUs = () => {
   return (
     <div className='container mx-auto w-7/12 mb-20 md:mb-0'>
-      <h3 className='text-3xl text-primary mb-3'>{`We'd love to help`}</h3>
-      <h3 className='text2xl text-primary mb-8'>{`Reach out and we'll get in touch within 24 hours`}</h3>
+      <h3 className='text-xl sm:text-3xl text-primary mb-3'>{`We'd love to help`}</h3>
+      <h3 className='text-lg sm:text2xl text-primary mb-8'>{`Reach out and we'll get in touch within 24 hours`}</h3>
       {/* <form action='https://formsubmit.co/kylereyes_09@yahoo.com' method='POST'> */}
       <form
         action='https://formsubmit.co/reyesmikyle17@gmail.com'
         method='POST'
         className='flex flex-col gap-7'>
-        <div className='flex flex-row gap-10'>
+        <div className='flex flex-col md:flex-row gap-10'>
           <label
             htmlFor='firstName'
             className='w-full flex flex-col gap-1 text-primary font-medium'>
@@ -32,7 +32,7 @@ const ContactUs = () => {
             />
           </label>
         </div>
-        <div className='flex flex-row gap-10'>
+        <div className='flex flex-col md:flex-row gap-10'>
           <label htmlFor='email' className='w-full flex flex-col gap-1 text-primary font-medium'>
             Email Address
             <input
