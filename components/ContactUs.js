@@ -1,6 +1,6 @@
 const ContactUs = () => {
   return (
-    <div className='container mx-auto w-7/12'>
+    <div className='container mx-auto w-7/12 mb-20 md:mb-0'>
       <h3 className='text-3xl text-primary mb-3'>{`We'd love to help`}</h3>
       <h3 className='text2xl text-primary mb-8'>{`Reach out and we'll get in touch within 24 hours`}</h3>
       {/* <form action='https://formsubmit.co/kylereyes_09@yahoo.com' method='POST'> */}
