@@ -14,12 +14,12 @@ const History = () => {
         <p className='text-lg z-10'>
           Through our experience in launching over 400 different websites and mobile applications,
           we have developed a highly refined product process. The goal - solutions that deliver
-          excellence for every industry, every niche, and every organization size...all the way from
+          excellence for every industry, every niche, and every organization size all the way from
           start-up to enterprise.
         </p>
       </div>
       <div
-        className='absolute opacity-90 w-2/6 min-h-[24rem] bottom-[-70px] rounded-md right-[3px] bg-cover bg-no-repeat bg-right'
+        className='absolute opacity-90 w-2/5 min-h-[24rem] bottom-[-70px] rounded-md right-[-90px] bg-cover bg-no-repeat bg-right'
         style={{
           backgroundImage: `url('/company-founded-image.jpeg')`,
         }}
