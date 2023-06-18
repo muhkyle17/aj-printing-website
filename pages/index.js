@@ -11,7 +11,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{`Aj's Printing Website`}</title>
+        <title>{`North Graphic Supplies`}</title>
+        <link rel='icon' href='/NGS.png' />
       </Head>
       <Header />
       <Hero />

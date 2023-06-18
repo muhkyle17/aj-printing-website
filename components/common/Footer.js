@@ -4,31 +4,33 @@ import MailSVG from '../../public/Mail.svg'
 
 const Footer = () => {
   return (
-    <div className='w-full bg-primary pt-14 pb-[1px]'>
-      <div className='flex flex-row justify-between gap-16 px-32 mx-auto container mb-20 text-primaryBackground bg-primary'>
-        <div className='flex flex-col gap-2 w-2/3'>
-          <h3 className='text-3xl'>North Graphic Supplies</h3>
+    <div className='w-full bg-primary mt-24 pt-14 pb-[1px] hidden md:block'>
+      <div className='flex flex-row justify-between md:gap-16 px-32 mx-auto container mb-20 text-primaryBackground bg-primary'>
+        <div className='flex flex-col gap-2 w-1/2 md:w-2/3'>
+          <h3 className='text-xl md:text-3xl'>North Graphic Supplies</h3>
           <p className='text-md'>Printing company based in Davao, Philippines</p>
           <p className='text-sm'>
             Export Labels Cmpd., Rasay Ext., Brgy. Daliao, Toril, Davao City, Philippines
           </p>
         </div>
-        <div className='flex gap-32 justify-around w-2/3'>
+        <div className='flex flex-col lg:flex-row gap-5 lg:gap-32 justify-around w-1/2 md:w-2/3'>
           <div className='flex flex-col gap-5'>
             <h3 className='text-2xl mb-2 opacity-60'>Services</h3>
-            <Link href='/company' className='hover:text-hoverPrimary'>
+            <Link href='/company' className='hover:text-hoverPrimary w-fit'>
               Company
             </Link>
-            <Link href='/products' className='hover:text-hoverPrimary'>
+            <Link href='/products' className='hover:text-hoverPrimary w-fit'>
               Products
             </Link>
-            <Link href='/market' className='hover:text-hoverPrimary'>
+            <Link href='/market' className='hover:text-hoverPrimary w-fit'>
               Market
             </Link>
           </div>
           <div className='flex flex-col gap-5'>
             <h3 className='text-2xl mb-2 opacity-60'>Contact</h3>
-            <a href='mailto:sales@northgraphicsupplies@gmail.com' className='flex gap-2'>
+            <a
+              href='mailto:sales@northgraphicsupplies@gmail.com'
+              className='flex flex-col lg:flex-row gap-2'>
               <svg
                 id='fico'
                 xmlns='http://www.w3.org/2000/svg'
@@ -44,7 +46,7 @@ const Footer = () => {
                 <path d='M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z' />
                 <polyline points='22,6 12,13 2,6' />
               </svg>
-              sales@northgraphicsupplies@gmail.com
+              <span className='text-xs lg:text-base'>sales@northgraphicsupplies@gmail.com</span>
             </a>
             <p className='flex gap-1'>
               <svg

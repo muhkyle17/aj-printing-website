@@ -28,7 +28,7 @@ const Nav = () => {
           Products
           {showProductsDropdown && (
             <div className={`${baseDropdownStyles}`}>
-              <Link className={`${baseSubDropdownStyles}`} href='/'>
+              <Link className={`${baseSubDropdownStyles} rounded-t-md`} href='/'>
                 Roll to roll labels
               </Link>
               <Link className={`${baseSubDropdownStyles}`} href='/'>
@@ -50,7 +50,7 @@ const Nav = () => {
           Market
           {showMarketsDropdown && (
             <div className={`${baseDropdownStyles}`}>
-              <Link className={`${baseSubDropdownStyles}`} href='/'>
+              <Link className={`${baseSubDropdownStyles} rounded-t-md`} href='/'>
                 B&F
               </Link>
               <Link className={`${baseSubDropdownStyles}`} href='/'>
