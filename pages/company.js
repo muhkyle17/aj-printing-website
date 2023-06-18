@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/common/Header'
 import Hero from '../components/Company/Hero'
+import Founded from '../components/Company/Founded'
 
 const Company = () => {
   return (
@@ -11,6 +12,7 @@ const Company = () => {
       </Head>
       <Header />
       <Hero />
+      <Founded />
     </>
   )
 }
