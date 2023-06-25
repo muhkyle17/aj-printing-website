@@ -3,6 +3,7 @@ import Header from '../components/common/Header'
 import Footer from '../components/common/Footer'
 import Hero from '../components/Company/Hero'
 import Founded from '../components/Company/History'
+import People from '../components/Company/People'
 
 const Company = () => {
   return (
@@ -14,6 +15,7 @@ const Company = () => {
       <Header />
       <Hero />
       <Founded />
+      <People />
       <Footer />
     </>
   )
