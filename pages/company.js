@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Header from '../components/common/Header'
 import Footer from '../components/common/Footer'
 import Hero from '../components/Company/Hero'
-import Founded from '../components/Company/History'
+import History from '../components/Company/History'
 import People from '../components/Company/People'
 
 const Company = () => {
@@ -14,7 +14,7 @@ const Company = () => {
       </Head>
       <Header />
       <Hero />
-      <Founded />
+      <History />
       <People />
       <Footer />
     </>
