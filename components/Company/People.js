@@ -61,10 +61,10 @@ const People = () => {
       <div className='flex flex-wrap gap-5 text-secondary'>
         {people.map(person => (
           <div
-            className='flex flex-col items-center justify-center gap-2 w-52 h-52 p-10 bg-primary'
+            className='flex flex-col items-center justify-center gap-2 w-52 h-52 bg-primary rounded-lg'
             key={person}>
             <p className='text-2xl font-semibold text-center'>{person.name}</p>
-            <p className='text-sm opacity-70'>{person.title}</p>
+            <p className='text-base bg-red-400 opacity-70 text-center'>{person.title}</p>
             {/* <a href={person.socials}>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
