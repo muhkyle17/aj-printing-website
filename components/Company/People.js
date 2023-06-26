@@ -54,17 +54,17 @@ const People = () => {
 
   return (
     <div className='flex flex-col gap-6 container mx-auto'>
-      <h2 className='text-8xl text-primary font-bold'>Our People.</h2>
-      <h3 className='text-2xl text-primary w-2/5 leading-10'>
-        The talented individuals behind every design and printer.
+      <h2 className='text-5xl sm:text-8xl text-primary font-bold'>Our People.</h2>
+      <h3 className='text-xl sm:text-2xl text-primary w-3/5 sm:w-4/6 leading-7 sm:leading-10'>
+        The talented and hardworking individuals behind every design and printer.
       </h3>
-      <div className='flex flex-wrap gap-5 text-secondary'>
+      <div className='flex flex-wrap justify-center sm:justify-start gap-5 text-secondary'>
         {people.map(person => (
           <div
             className='flex flex-col items-center justify-center gap-2 w-52 h-52 bg-primary rounded-lg'
             key={person}>
             <p className='text-2xl font-semibold text-center'>{person.name}</p>
-            <p className='text-base bg-red-400 opacity-70 text-center'>{person.title}</p>
+            <p className='text-base opacity-70 text-center'>{person.title}</p>
             {/* <a href={person.socials}>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
