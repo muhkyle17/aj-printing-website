@@ -13,10 +13,8 @@ const RollToRoll = () => {
       <Header />
       <ProductsHero
         backgroundImage='/roll-to-roll-hero.jpeg'
-        title={'Roll to Roll Labels'}
-        description={
-          'Roll to roll labels by NGS will print out high quality printing labels for various applications such as product packaging, shipping labels, barcodes, and promotional stickers.'
-        }
+        title='Roll to Roll Labels'
+        description='Roll to roll labels by NGS will print out high quality printing labels for various applications such as product packaging, shipping labels, barcodes, and promotional stickers.'
       />
       <Footer />
     </>

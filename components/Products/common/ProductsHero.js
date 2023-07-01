@@ -1,5 +1,4 @@
 const ProductsHero = ({ backgroundImage, title, description }) => {
-  console.log(backgroundImage)
   return (
     <div>
       <div className='relative mt-[7.5rem]'>
