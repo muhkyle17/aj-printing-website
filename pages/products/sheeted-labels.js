@@ -1,9 +1,14 @@
 import Layout from '../../components/common/Layout'
+import ProductsHero from '../../components/Products/common/ProductsHero'
 
 const SheetedLabels = () => {
   return (
     <Layout>
-      <p>Sheeted Labels</p>
+      <ProductsHero
+        backgroundImage='/sheeted-labels-hero.avif'
+        title='Sheeted Labels'
+        description='Roll to roll labels by NGS will print out high quality printing labels for various applications such as product packaging, shipping labels, barcodes, and promotional stickers.'
+      />
     </Layout>
   )
 }
