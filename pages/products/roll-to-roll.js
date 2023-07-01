@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Layout from '../../components/common/Layout'
 import Hero from '../../components/Products/common/Hero'
 import About from '../../components/Products/common/About'
@@ -22,6 +21,7 @@ const RollToRoll = () => {
           In-Mould Labeling has become preferable because of the several major advantages by many
           sectors such as food, industrial pails, chemistry, health etc.'
         image={RollToRollProduct}
+        height='max-h-[17rem]'
       />
     </Layout>
   )
