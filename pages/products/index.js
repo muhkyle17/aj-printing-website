@@ -1,11 +1,11 @@
 import Layout from '../../components/common/Layout'
-import ProductsHero from '../../components/Products/common/ProductsHero'
+import Hero from '../../components/Products/common/Hero'
 import Products from '../../components/Home/Products'
 
 const index = () => {
   return (
     <Layout>
-      <ProductsHero
+      <Hero
         backgroundImage='/products-index-hero.jpeg'
         title='Products'
         description='NGS products that match your printing needs'

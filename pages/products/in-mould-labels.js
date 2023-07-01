@@ -1,10 +1,10 @@
 import Layout from '../../components/common/Layout'
-import ProductsHero from '../../components/Products/common/ProductsHero'
+import Hero from '../../components/Products/common/Hero'
 
 const InMouldLabels = () => {
   return (
     <Layout>
-      <ProductsHero
+      <Hero
         backgroundImage='/in-mould-labels-hero.jpeg'
         title='In Mould Labels'
         description='Roll to roll labels by NGS will print out high quality printing labels for various applications such as product packaging, shipping labels, barcodes, and promotional stickers.'
