@@ -17,12 +17,16 @@ const Products = () => {
           </Link>
         </div>
         <div className='text-2xl w-[50vw] max-w-[60vw] text-primary border-b-2 border-gray-300 py-10'>
-          <Link href='/' className='hover:text-hoverPrimary transition-all duration-300'>
+          <Link
+            href='/products/sheeted-labels'
+            className='hover:text-hoverPrimary transition-all duration-300'>
             Sheeted Labels
           </Link>
         </div>
         <div className='text-2xl w-[50vw] max-w-[60vw] text-primary border-b-2 border-gray-300 py-10'>
-          <Link href='/' className='hover:text-hoverPrimary transition-all duration-300'>
+          <Link
+            href='/products/in-mould-labels'
+            className='hover:text-hoverPrimary transition-all duration-300'>
             In Mould Labels
           </Link>
         </div>

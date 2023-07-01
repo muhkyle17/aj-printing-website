@@ -33,10 +33,12 @@ const Nav = () => {
                 href='/products/roll-to-roll'>
                 Roll to roll labels
               </Link>
-              <Link className={`${baseSubDropdownStyles}`} href='/'>
+              <Link className={`${baseSubDropdownStyles}`} href='/products/sheeted-labels'>
                 Sheeted Labels
               </Link>
-              <Link className={`${baseSubDropdownStyles} rounded-b-md`} href='/'>
+              <Link
+                className={`${baseSubDropdownStyles} rounded-b-md`}
+                href='/products/in-mould-labels'>
                 In Mould Labels
               </Link>
             </div>
