@@ -1,4 +1,4 @@
-const ProductsHero = ({ backgroundImage, title, description }) => {
+const Hero = ({ backgroundImage, title, description }) => {
   return (
     <div>
       <div className='relative mt-[7.5rem]'>
@@ -29,4 +29,4 @@ const ProductsHero = ({ backgroundImage, title, description }) => {
   )
 }
 
-export default ProductsHero
+export default Hero
