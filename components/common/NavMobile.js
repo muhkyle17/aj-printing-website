@@ -87,7 +87,7 @@ const NavMobile = ({ bg }) => {
         </li>
         <li className='mb-8'>
           <Link
-            href={'/product'}
+            href={'/products'}
             className='text-xl cursor-pointer capitalize text-white hover:text-hoverPrimary transition-all duration-300'>
             Products
           </Link>
