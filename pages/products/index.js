@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Header from '../../components/common/Header'
 import Footer from '../../components/common/Footer'
-import Hero from '../../components/Products/Hero'
 
 const index = () => {
   return (
@@ -11,7 +10,6 @@ const index = () => {
         <link rel='icon' href='/NGS.png' />
       </Head>
       <Header />
-      <Hero />
       <Footer />
     </>
   )
