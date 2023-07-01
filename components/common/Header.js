@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 
-import Nav from '../Nav'
-import NavMobile from '../NavMobile'
+import Nav from './/Nav'
+import NavMobile from './NavMobile'
 
 const Header = () => {
   const [bg, setBg] = useState(false)

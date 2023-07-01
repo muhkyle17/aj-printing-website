@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Header from '../components/common/Header'
-import Hero from '../components/Hero'
-import CompanyPhilosophy from '../components/CompanyPhilosophy'
-import Products from '../components/Products'
-import Markets from '../components/Markets'
-import ContactUs from '../components/ContactUs'
+import Hero from '../components/Home/Hero'
+import CompanyPhilosophy from '../components/Home/CompanyPhilosophy'
+import Products from '../components/Home/Products'
+import Markets from '../components/Home/Markets'
+import ContactUs from '../components/Home/ContactUs'
 import Footer from '../components/common/Footer'
 
 export default function Home() {

@@ -28,7 +28,9 @@ const Nav = () => {
           Products
           {showProductsDropdown && (
             <div className={`${baseDropdownStyles}`}>
-              <Link className={`${baseSubDropdownStyles} rounded-t-md`} href='/'>
+              <Link
+                className={`${baseSubDropdownStyles} rounded-t-md`}
+                href='/products/roll-to-roll'>
                 Roll to roll labels
               </Link>
               <Link className={`${baseSubDropdownStyles}`} href='/'>

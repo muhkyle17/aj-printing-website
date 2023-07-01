@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import printingImage from '../public/printing-image.jpeg'
-import printingImage2 from '../public/print-image-2.jpeg'
+import printingImage from '../../public/printing-image.jpeg'
+import printingImage2 from '../../public/print-image-2.jpeg'
 
 const CompanyPhilosophy = () => {
   return (
