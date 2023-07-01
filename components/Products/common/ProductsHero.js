@@ -14,10 +14,10 @@ const ProductsHero = ({ backgroundImage, title, description }) => {
             transform: 'translate(-50%, -50%)',
           }}
           className='flex flex-col items-center justify-center gap-5 mx-auto container'>
-          <h2 className='text-5xl sm:text-7xl text-primaryBackground opacity-100 text-center w-[70vw]'>
+          <h2 className='text-5xl sm:text-7xl font-semibold text-primaryBackground opacity-100 tracking-wider text-center w-[70vw]'>
             {title}
           </h2>
-          <p className='text-center text-xl sm:text-3xl text-primaryBackground leading-10'>
+          <p className='text-center text-xl sm:text-3xl text-primaryBackground leading-10 tracking-wide'>
             {description}
           </p>
         </div>
