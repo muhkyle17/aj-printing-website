@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import Header from '../components/common/Header'
-import Footer from '../components/common/Footer'
-import Hero from '../components/Products/Hero'
+import Header from '../../components/common/Header'
+import Footer from '../../components/common/Footer'
+import Hero from '../../components/Products/Hero'
 
-const products = () => {
+const index = () => {
   return (
     <>
       <Head>
@@ -17,4 +17,4 @@ const products = () => {
   )
 }
 
-export default products
+export default index
