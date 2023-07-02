@@ -51,7 +51,7 @@ const Nav = () => {
           className='dropdown-hover'
           onMouseEnter={() => setShowMarketsDropdown(true)}
           onMouseLeave={() => setShowMarketsDropdown(false)}>
-          Market
+          Markets
           {showMarketsDropdown && (
             <div className={`${baseDropdownStyles}`}>
               <Link className={`${baseSubDropdownStyles} rounded-t-md`} href='/'>

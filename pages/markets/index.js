@@ -1,8 +1,10 @@
+import Layout from '../../components/common/Layout'
+
 const markets = () => {
   return (
-    <div>
-      <p>Markets page</p>
-    </div>
+    <Layout>
+      <p>Markets</p>
+    </Layout>
   )
 }
 

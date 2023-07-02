@@ -94,9 +94,9 @@ const NavMobile = ({ bg }) => {
         </li>
         <li className='mb-8'>
           <Link
-            href={'/market'}
+            href={'/markets'}
             className='text-xl cursor-pointer capitalize text-white hover:text-hoverPrimary transition-all duration-300'>
-            Market
+            Markets
           </Link>
         </li>
         <li className='mb-8'>
