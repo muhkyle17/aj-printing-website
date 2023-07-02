@@ -1,4 +1,12 @@
 const Hero = ({ backgroundImage, title, description }) => {
+  const dynamicTitle = title => {
+    if (title === 'Products' || title === 'Markets') {
+      return 'sm:text-6xl'
+    } else {
+      return 'sm:text-5xl'
+    }
+  }
+
   return (
     <div>
       <div className='relative mt-[7.5rem]'>
@@ -15,9 +23,9 @@ const Hero = ({ backgroundImage, title, description }) => {
           }}
           className='flex flex-col items-center justify-center gap-5 mx-auto container'>
           <h2
-            className={`text-3xl ${
-              title === 'Products' ? 'sm:text-6xl' : 'sm:text-5xl'
-            }  font-semibold text-primaryBackground opacity-100 tracking-wider text-center w-[70vw]`}>
+            className={`text-3xl ${dynamicTitle(
+              title
+            )} font-semibold text-primaryBackground opacity-100 tracking-wider text-center w-[70vw]`}>
             {title}
           </h2>
           <p className='text-center text-xl sm:text-2xl text-primaryBackground leading-10 tracking-wide'>
