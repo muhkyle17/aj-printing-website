@@ -1,5 +1,5 @@
 import Layout from '../../components/common/Layout'
-import Hero from '../../components/Products/common/Hero'
+import Hero from '../../components/Products-Markets/common/Hero'
 import Products from '../../components/Home/Products'
 
 const index = () => {

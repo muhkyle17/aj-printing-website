@@ -1,6 +1,6 @@
 import Layout from '../../components/common/Layout'
-import Hero from '../../components/Products/common/Hero'
-import About from '../../components/Products/common/About'
+import Hero from '../../components/Products-Markets/common/Hero'
+import About from '../../components/Products-Markets/common/About'
 import RollToRollProduct from '../../public/in-mould-label-product.jpeg'
 
 const InMouldLabels = () => {
