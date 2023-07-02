@@ -1,6 +1,6 @@
 import Layout from '../../components/common/Layout'
-import Hero from '../../components/Products-Markets/common/Hero'
-import About from '../../components/Products-Markets/common/About'
+import Hero from '../../components/ProductsMarkets/common/Hero'
+import About from '../../components/ProductsMarkets/common/About'
 // import RollToRollProduct from '../../public/roll-to-roll-labels-product.png'
 import RollToRollProduct from '../../public/in-mould-label-product.jpeg'
 

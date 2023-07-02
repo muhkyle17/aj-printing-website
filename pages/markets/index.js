@@ -1,5 +1,5 @@
 import Layout from '../../components/common/Layout'
-import Hero from '../../components/Products-Markets/common/Hero'
+import Hero from '../../components/ProductsMarkets/common/Hero'
 import Markets from '../../components/Home/Markets'
 
 const markets = () => {
