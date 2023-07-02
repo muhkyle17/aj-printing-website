@@ -22,8 +22,8 @@ const Footer = () => {
             <Link href='/products' className='hover:text-hoverPrimary w-fit'>
               Products
             </Link>
-            <Link href='/market' className='hover:text-hoverPrimary  w-fit'>
-              Market
+            <Link href='/markets' className='hover:text-hoverPrimary  w-fit'>
+              Markets
             </Link>
           </div>
           <div className='flex flex-col gap-5'>
