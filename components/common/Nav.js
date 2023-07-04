@@ -54,19 +54,19 @@ const Nav = () => {
           Markets
           {showMarketsDropdown && (
             <div className={`${baseDropdownStyles}`}>
-              <Link className={`${baseSubDropdownStyles} rounded-t-md`} href='/'>
+              <Link className={`${baseSubDropdownStyles} rounded-t-md`} href='/markets/b&f'>
                 B&F
               </Link>
-              <Link className={`${baseSubDropdownStyles}`} href='/'>
+              <Link className={`${baseSubDropdownStyles}`} href='/markets/healthcare'>
                 Healthcare
               </Link>
-              <Link className={`${baseSubDropdownStyles}`} href='/'>
+              <Link className={`${baseSubDropdownStyles}`} href='/markets/promotions'>
                 Promotions
               </Link>
-              <Link className={`${baseSubDropdownStyles}`} href='/'>
+              <Link className={`${baseSubDropdownStyles}`} href='/markets/barcodes'>
                 Barcodes
               </Link>
-              <Link className={`${baseSubDropdownStyles} rounded-b-md`} href='/'>
+              <Link className={`${baseSubDropdownStyles} rounded-b-md`} href='/markets/chemicals'>
                 Chemicals
               </Link>
             </div>
