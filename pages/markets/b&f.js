@@ -1,10 +1,13 @@
+import Layout from '../../components/common/Layout'
+import Hero from '../../components/ProductsMarkets/common/Hero'
 import About from '../../components/ProductsMarkets/common/About'
 
 const bf = () => {
   return (
-    <About>
-      <p>BF</p>
-    </About>
+    <Layout>
+      <Hero />
+      <About />
+    </Layout>
   )
 }
 
