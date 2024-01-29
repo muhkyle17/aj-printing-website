@@ -3,7 +3,7 @@ import Hero from '../../components/ProductsMarkets/common/Hero'
 import About from '../../components/ProductsMarkets/common/About'
 import BFProduct from '../../public/b&f-product.jpeg'
 
-const bf = () => {
+const BF = () => {
   return (
     <Layout>
       <Hero
@@ -21,4 +21,4 @@ const bf = () => {
   )
 }
 
-export default bf
+export default BF
