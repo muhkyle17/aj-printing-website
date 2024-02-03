@@ -1,8 +1,13 @@
+import Layout from '../../components/common/Layout'
+import Hero from '../../components/ProductsMarkets/common/Hero'
+import About from '../../components/ProductsMarkets/common/Hero'
+
 const Barcodes = () => {
   return (
-    <div>
-      <p>Barcodes</p>
-    </div>
+    <Layout>
+      <Hero />
+      <About />
+    </Layout>
   )
 }
 
