@@ -13,12 +13,9 @@ const InMouldLabels = () => {
       />
       <About
         header='In-Mould is the integration of the label with the packaging during the injection.'
-        description='In this process, the label is placed into the IML injection mould, then melted
-          thermoplastic polymer combines with the IML label and takes the shape of the mould. Thus,
-          production of packaging and labeling are performed at the same time. IML process can be
-          applied with blow moulding, injection moulding and thermoforming technologies. Today,
-          In-Mould Labeling has become preferable because of the several major advantages by many
-          sectors such as food, industrial pails, chemistry, health etc.'
+        description1='In this process, the label is placed into the IML injection mould, then melted thermoplastic polymer combines with the IML label and takes the shape of the mould. Thus, production of packaging and labeling are performed at the same time.'
+        description2='IML process can be applied with blow moulding, injection moulding and thermoforming technologies.'
+        description3='Today, In-Mould Labeling has become preferable because of the several major advantages by many sectors such as food, industrial pails, chemistry, health etc.'
         image={RollToRollProduct}
         height='max-h-[17rem]'
       />
