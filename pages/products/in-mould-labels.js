@@ -17,7 +17,7 @@ const InMouldLabels = () => {
         description2='IML process can be applied with blow moulding, injection moulding and thermoforming technologies.'
         description3='Today, In-Mould Labeling has become preferable because of the several major advantages by many sectors such as food, industrial pails, chemistry, health etc.'
         image={RollToRollProduct}
-        height='max-h-[17rem]'
+        height='max-h-[20rem]'
       />
     </Layout>
   )
