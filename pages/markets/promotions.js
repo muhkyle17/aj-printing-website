@@ -13,9 +13,11 @@ const Promotions = () => {
       />
       <About
         header='Transform your promotional campaigns with our customized marketing materials.'
-        description="From eye-catching flyers to attention-grabbing posters, our printing services are tailored to make your brand stand out in the crowd. Make a statement at your events with our high-quality signage and banners. Whether it's a trade show, conference, or product launch, our printing solutions ensure your message is seen and remembered. Extend your brand reach with our range of branded merchandise. From promotional pens to personalized apparel, we offer printing services that turn everyday items into powerful brand ambassadors. Engage your audience directly with our direct mail printing services. We specialize in creating compelling and personalized direct mail materials that capture attention and drive responses."
+        description1='From eye-catching flyers to attention-grabbing posters, our printing services are tailored to make your brand stand out in the crowd.  Extend your brand reach with our range of branded merchandise.'
+        description2="Make a statement at your events with our high-quality signage and banners. Whether it's a trade show, conference, or product launch, our printing solutions ensure your message is seen and remembered."
+        description3='From promotional pens to personalized apparel, we offer printing services that turn everyday items into powerful brand ambassadors. Engage your audience directly with our direct mail printing services.'
         image={PromotionsProduct}
-        height='h-[25rem]'
+        height='h-[24.5rem]'
       />
     </Layout>
   )
