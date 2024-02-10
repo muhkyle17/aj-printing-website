@@ -12,67 +12,46 @@ const ContactUs = ({ contactPage }) => {
           action='https://formsubmit.co/reyesmikyle17@gmail.com'
           method='POST'
           className='flex flex-col gap-7'>
-          <div className='flex flex-col md:flex-row gap-10'>
-            <label
-              htmlFor='firstName'
-              className='w-full flex flex-col gap-1 text-primary font-medium'>
-              First Name
-              <input
-                type='text'
-                name='firstName'
-                placeholder='John'
-                className='w-full rounded-xl py-2 px-3 border-2 border-gray-200 font-normal focus:outline-none'
-                required
-              />
-            </label>
-            <label
-              htmlFor='lastName'
-              className='w-full flex flex-col gap-1 text-primary font-medium'>
-              Last Name
-              <input
-                type='text'
-                name='lastName'
-                placeholder='Doe'
-                className='w-full rounded-xl py-2 px-3 border-2 border-gray-200 font-normal focus:outline-none'
-                required
-              />
-            </label>
-          </div>
-          <div className='flex flex-col md:flex-row gap-10'>
-            <label htmlFor='email' className='w-full flex flex-col gap-1 text-primary font-medium'>
-              Email Address
-              <input
-                type='email'
-                name='email'
-                placeholder='example@gmail.com'
-                className='w-full rounded-xl py-2 px-3 border-2 border-gray-200 font-normal focus:outline-none'
-                required
-              />
-            </label>
-            <label
-              htmlFor='company'
-              className='w-full flex flex-col gap-1 text-primary font-medium'>
-              Company Name
-              <input
-                type='text'
-                name='company'
-                placeholder='Company Name'
-                className='w-full rounded-xl py-2 px-3 border-2 border-gray-200 font-normal focus:outline-none'
-                required
-              />
-            </label>
-          </div>
-          <label htmlFor='message' className='flex flex-col gap-1 text-primary font-medium'>
-            Message
-            <textarea
-              type='text'
-              name='message'
-              rows='4'
-              cols='50'
-              className='w-full rounded-xl py-2 px-3 border-2 border-gray-200 font-normal focus:outline-none'
-              placeholder='Leave us a message...'
-            />
-          </label>
+          <input
+            type='text'
+            name='firstName'
+            placeholder='Your first name'
+            className='w-full py-2 bg-transparent border-b border-primary font-normal text-xl placeholder:text-gray-500 focus:outline-none'
+            required
+          />
+
+          <input
+            type='text'
+            name='lastName'
+            placeholder='Your last name'
+            className='w-full py-2 bg-transparent border-b border-primary font-normal text-xl placeholder:text-gray-500 focus:outline-none'
+            required
+          />
+
+          <input
+            type='email'
+            name='email'
+            placeholder='Email address'
+            className='w-full py-2 bg-transparent border-b border-primary font-normal text-xl placeholder:text-gray-500 focus:outline-none'
+            required
+          />
+          <input
+            type='text'
+            name='company'
+            placeholder='Company Name'
+            className='w-full py-2 bg-transparent border-b border-primary font-normal text-xl placeholder:text-gray-500 focus:outline-none'
+            required
+          />
+
+          <textarea
+            type='text'
+            name='message'
+            rows='4'
+            cols='50'
+            className='w-full py-2 bg-transparent border-b border-primary font-normal text-xl placeholder:text-gray-500 focus:outline-none'
+            placeholder='Leave us a message...'
+          />
+
           <button
             type='submit'
             className='bg-primary border-2 border-primary rounded-xl py-2 font-medium text-white hover:bg-primaryBackground hover:text-primary transition-all duration-300'>
