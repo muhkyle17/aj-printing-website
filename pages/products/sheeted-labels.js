@@ -1,7 +1,7 @@
 import Layout from '../../components/common/Layout'
 import Hero from '../../components/ProductsMarkets/common/Hero'
 import About from '../../components/ProductsMarkets/common/About'
-import RollToRollProduct from '../../public/in-mould-label-product.jpeg'
+import SheetedLabelsProduct from '../../public/sheeted-labels-product.jpeg'
 
 const SheetedLabels = () => {
   return (
@@ -19,8 +19,8 @@ const SheetedLabels = () => {
           applied with blow moulding, injection moulding and thermoforming technologies. Today,
           In-Mould Labeling has become preferable because of the several major advantages by many
           sectors such as food, industrial pails, chemistry, health etc.'
-        image={RollToRollProduct}
-        height='max-h-[17rem]'
+        image={SheetedLabelsProduct}
+        height='max-h-[25rem]'
       />
     </Layout>
   )
