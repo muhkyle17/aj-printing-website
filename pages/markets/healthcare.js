@@ -13,9 +13,11 @@ const Healthcare = () => {
       />
       <About
         header='Streamline your administrative processes with our precise printing of patient forms, medical records, and administrative documents.'
-        description='Our dedicated healthcare printing services are designed to meet the unique needs of healthcare providers, ensuring that your printed materials contribute to the seamless delivery of patient care. From wellness brochures to educational pamphlets, our printing services help you communicate vital information effectively. Make a lasting impression with personalized medical stationery. Our printing solutions cover letterheads, envelopes, prescription pads, and other stationery essentials tailored to your healthcare practice.'
+        description1='Our dedicated healthcare printing services are designed to meet the unique needs of healthcare providers, ensuring that your printed materials contribute to the seamless delivery of patient care.'
+        description2='From wellness brochures to educational pamphlets, our printing services help you communicate vital information effectively. Make a lasting impression with personalized medical stationery.'
+        description3='Our printing solutions cover letterheads, envelopes, prescription pads, and other stationery essentials tailored to your healthcare practice.'
         image={HealthcareProduct}
-        height='h-[20rem]'
+        height='h-[24.5rem]'
       />
     </Layout>
   )
