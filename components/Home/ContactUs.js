@@ -6,8 +6,10 @@ const ContactUs = ({ contactPage }) => {
       }`}>
       <div className='flex flex-col items-start justify-center w-1/2 gap-16'>
         <h3 className='text-xl sm:text-7xl tracking-wide font-semibold text-primary'>{`Contact Us`}</h3>
-        <h3 className='text-lg sm:text-xl tracking-wide text-primary'>
-          <span>We&lsquo;re here to deliver the print revolution.</span>
+        <h3 className='text-lg sm:text-lg tracking-wide text-primary'>
+          <span className='font-semibold text-xl'>
+            We&lsquo;re here to deliver the print revolution.
+          </span>
           <br />
           Reach out, let us know what you need. We&lsquo;ll get in touch within 24 hours.
         </h3>
