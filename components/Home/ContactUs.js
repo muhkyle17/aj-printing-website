@@ -1,11 +1,11 @@
 const ContactUs = ({ contactPage }) => {
   return (
     <section
-      className={`container mx-auto flex items-center justify-between gap-20 w-full pt-32 lg:py-0 overflow-hidden relative ${
+      className={`container mx-auto flex flex-wrap lg:flex-nowrap items-center justify-between gap-10 lg:gap-20 w-full pt-32 lg:py-0 overflow-hidden relative ${
         contactPage && 'mt-[10rem]'
       }`}>
-      <div className='flex flex-col items-start justify-center w-1/2 gap-16'>
-        <h3 className='text-xl sm:text-7xl tracking-wide font-semibold text-primary'>{`Contact Us`}</h3>
+      <div className='flex flex-col items-start justify-center lg:w-1/2 gap-8 lg:gap-16'>
+        <h3 className='text-6xl sm:text-7xl tracking-wide font-semibold text-primary'>{`Contact Us`}</h3>
         <h3 className='text-lg sm:text-lg tracking-wide text-primary'>
           <span className='font-semibold text-xl'>
             We&lsquo;re here to deliver the print revolution.
@@ -15,13 +15,15 @@ const ContactUs = ({ contactPage }) => {
         </h3>
         <div>
           <p className='text-primary text-lg'>+63 82 392 8776</p>
-          <p className='text-primary text-lg'>sales@northgraphicsupplies@gmail.com</p>
+          <p className='text-primary text-sm sm:text-lg break-normal'>
+            sales@northgraphicsupplies@gmail.com
+          </p>
         </div>
       </div>
 
-      <div className='h-[35rem] border-r-2 border-primary' />
+      <div className='hidden lg:block h-[35rem] border-r-2 border-primary' />
 
-      <div className='mb-20 md:mb-0 w-1/2'>
+      <div className='mb-20 w-full md:mb-0 lg:w-1/2'>
         {/* <form action='https://formsubmit.co/kylereyes_09@yahoo.com' method='POST'> */}
         <form
           action='https://formsubmit.co/reyesmikyle17@gmail.com'
