@@ -1,12 +1,14 @@
 const ContactUs = ({ contactPage }) => {
   return (
     <section
-      className={`flex items-center pt-32 lg:py-0 overflow-hidden relative ${
+      className={`container mx-auto flex items-center justify-between gap-20 w-full pt-32 lg:py-0 overflow-hidden relative ${
         contactPage && 'mt-[10rem]'
       }`}>
-      <div className='container mx-auto w-7/12 mb-20 md:mb-0'>
+      <div className='flex flex-col items-center justify-center w-1/2 h-full'>
         <h3 className='text-xl sm:text-3xl text-primary mb-3'>{`We'd love to help`}</h3>
         <h3 className='text-lg sm:text2xl text-primary mb-8'>{`Reach out and we'll get in touch within 24 hours`}</h3>
+      </div>
+      <div className='mb-20 md:mb-0 w-1/2'>
         {/* <form action='https://formsubmit.co/kylereyes_09@yahoo.com' method='POST'> */}
         <form
           action='https://formsubmit.co/reyesmikyle17@gmail.com'
