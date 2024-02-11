@@ -29,7 +29,7 @@ const ContactUs = ({ contactPage }) => {
             type='text'
             name='firstName'
             placeholder='Your first name'
-            className='w-full py-2 bg-transparent border-b border-primary font-normal text-xl placeholder:text-gray-500 focus:outline-none'
+            className='w-full py-2 bg-transparent border-b border-primary font-normal text-xl text-primary placeholder:text-gray-500 focus:outline-none'
             required
           />
 
@@ -37,7 +37,7 @@ const ContactUs = ({ contactPage }) => {
             type='text'
             name='lastName'
             placeholder='Your last name'
-            className='w-full py-2 bg-transparent border-b border-primary font-normal text-xl placeholder:text-gray-500 focus:outline-none'
+            className='w-full py-2 bg-transparent border-b border-primary font-normal text-xl text-primary placeholder:text-gray-500 focus:outline-none'
             required
           />
 
@@ -45,14 +45,14 @@ const ContactUs = ({ contactPage }) => {
             type='email'
             name='email'
             placeholder='Email address'
-            className='w-full py-2 bg-transparent border-b border-primary font-normal text-xl placeholder:text-gray-500 focus:outline-none'
+            className='w-full py-2 bg-transparent border-b border-primary font-normal text-xl text-primary placeholder:text-gray-500 focus:outline-none'
             required
           />
           <input
             type='text'
             name='company'
             placeholder='Company Name'
-            className='w-full py-2 bg-transparent border-b border-primary font-normal text-xl placeholder:text-gray-500 focus:outline-none'
+            className='w-full py-2 bg-transparent border-b border-primary font-normal text-xl text-primary placeholder:text-gray-500 focus:outline-none'
             required
           />
 
@@ -61,7 +61,7 @@ const ContactUs = ({ contactPage }) => {
             name='message'
             rows='4'
             cols='50'
-            className='w-full py-2 bg-transparent border-b border-primary font-normal text-xl placeholder:text-gray-500 focus:outline-none'
+            className='w-full py-2 bg-transparent border-b border-primary font-normal text-xl text-primary placeholder:text-gray-500 focus:outline-none'
             placeholder='Leave us a message...'
           />
 
