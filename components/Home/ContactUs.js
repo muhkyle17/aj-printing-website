@@ -16,7 +16,7 @@ const ContactUs = ({ contactPage }) => {
         <div>
           <p className='text-primary text-lg'>+63 82 392 8776</p>
           <p className='text-primary text-sm sm:text-lg break-normal'>
-            sales@northgraphicsupplies@gmail.com
+            sales@northgraphicsupplies.com
           </p>
         </div>
       </div>
