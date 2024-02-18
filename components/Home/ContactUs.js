@@ -1,4 +1,17 @@
 const ContactUs = ({ contactPage }) => {
+  async function handleSubmit(event) {
+    event.preventDefault()
+
+    const formData = new FormData(event.target)
+    const response = await fetch('/api/send', {
+      method: 'POST',
+      body: formData,
+    })
+
+    const data = await response.json()
+    console.log(data, 'data')
+  }
+
   return (
     <section
       className={`container mx-auto flex flex-wrap lg:flex-nowrap items-center justify-between gap-10 lg:gap-20 w-full pt-32 lg:py-0 overflow-hidden relative ${
@@ -25,9 +38,10 @@ const ContactUs = ({ contactPage }) => {
 
       <div className='mb-20 w-full md:mb-0 lg:w-1/2'>
         <form
-          action='https://formsubmit.co/sales@northgraphicsupplies.com'
-          method='POST'
-          className='flex flex-col gap-7'>
+          // action='https://formsubmit.co/sales@northgraphicsupplies.com'
+          // method='POST'
+          // className='flex flex-col gap-7'
+          onSubmit={handleSubmit}>
           {/* <form
           action='https://formsubmit.co/reyesmikyle17@gmail.com'
           method='POST'
