@@ -26,12 +26,10 @@ const ContactUs = ({ contactPage }) => {
       <div className='mb-20 w-full md:mb-0 lg:w-1/2'>
         <form
           action='https://formsubmit.co/sales@northgraphicsupplies.com'
+          // action='https://formsubmit.co/reyesmikyle17@gmail.com'
+          // action='https://formsubmit.co/kylereyes_09@yahoo.com'
           method='POST'
           className='flex flex-col gap-7'>
-          {/* <form
-          action='https://formsubmit.co/reyesmikyle17@gmail.com'
-          method='POST'
-          className='flex flex-col gap-7'> */}
           <input
             type='text'
             name='firstName'
