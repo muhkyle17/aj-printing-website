@@ -25,7 +25,7 @@ const ContactUs = ({ contactPage }) => {
 
       <div className='mb-20 w-full md:mb-0 lg:w-1/2'>
         <form
-          action='https://formsubmit.co/admin@northgraphicsupplies.com'
+          action='https://formsubmit.co/5c8b216d8ca74a31b9b8a7feae6cff76'
           method='POST'
           className='flex flex-col gap-7'>
           <input
