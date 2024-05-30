@@ -11,11 +11,11 @@ const CompanyPhilosophy = () => {
         <p className='text-6xl sm:text-7xl md:pl-60 text-[#264D6A]'>Values</p>
       </div>
       <div className='flex xl:flex-row flex-col items-center gap-5 w-full xl:mx-28'>
-        <p className='text-base lg:px-20 xl:px-0 w-3/4 xl:w-1/4 text-primary opacity-80 leading-6'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, officiis nostrum
-          voluptatum iste quas mollitia explicabo nisi eveniet perferendis, cumque et ipsum
-          consectetur laborum nulla facilis quam magnam nam placeat possimus saepe earum!
-        </p>
+        <h2 className='text-xl font-medium lg:px-20 xl:px-0 w-3/4 xl:w-1/4 text-primary opacity-80 leading-8'>
+          At North Graphic Supplies, we are committed to excellence in every product, embracing new
+          technologies, practicing sustainability, prioritizing customer needs, and conducting our
+          business with honesty and transparency.
+        </h2>
         <div className='flex flex-wrap flex-col justify-center lg:flex-row lg:items-center w-3/4 mx-auto xl:flex-nowrap gap-5'>
           <Image
             src={printingImage}
